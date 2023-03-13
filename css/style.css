@@ -58,6 +58,7 @@ header {
   max-width: 670px;
 }
 
+/* dates section start */
 #dates {
   margin-inline: 10px;
   padding-inline: 5px;
@@ -74,3 +75,65 @@ header {
   letter-spacing: 1.5px;
   opacity: 0.9;
 }
+
+/* dates section end */
+
+/* program section start */
+#program {
+  background: #272a31;
+  color: #eaeced;
+  padding-block: 30px;
+  padding-inline: 15px;
+  background-image: url("../images/x-icon.svg");
+  background-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#program ul {
+  list-style: none;
+}
+
+#program-list > li {
+  background: rgba(128, 128, 128, 0.3);
+  margin-top: 8px;
+  padding: 10px;
+}
+
+#program-list > li > ul {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+
+.icon {
+  font-size: 24px;
+  min-width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 1.1rem;
+  width: 80px;
+}
+
+.activity-description {
+  flex: 1;
+  line-height: 24px;
+}
+
+#join-summit {
+  background: #ff5241;
+  color: #eaeced;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+}
+/* program section end */
