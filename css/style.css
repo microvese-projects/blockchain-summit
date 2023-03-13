@@ -7,6 +7,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  background-color: #f7f7f7;
+}
+
 /* header */
 header {
   height: 100px;
@@ -41,4 +45,14 @@ header {
   font-weight: 900;
   line-height: 110%;
   margin-top: 10px;
+}
+
+#hero-description {
+  border: 3px solid #fff;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  line-height: 24px;
+  max-width: 670px;
 }
