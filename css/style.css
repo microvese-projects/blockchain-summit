@@ -143,6 +143,11 @@ header {
   width: 20%;
   border: 2px solid #ec5242;
   border-radius: 10px;
+  opacity: 0.6;
+}
+
+.section-title {
+  padding-bottom: 15px;
 }
 
 /* start of featured speakers */
@@ -153,9 +158,13 @@ header {
   margin: 20px;
 }
 
+.speaker-card:first-child {
+  margin-top: 30px;
+}
+
 .speaker-card {
   display: flex;
-  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .images {
@@ -206,3 +215,22 @@ header {
   line-height: 20px;
   letter-spacing: 0.4px;
 }
+
+#more-featured-speakers {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid rgb(161, 161, 161);
+  border-radius: 5px;
+}
+
+#more-featured-speakers i {
+  color: #ec5242;
+  font-weight: 900;
+}
+/* end of featured speakers */
