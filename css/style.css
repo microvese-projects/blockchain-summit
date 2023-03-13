@@ -57,3 +57,20 @@ header {
   line-height: 24px;
   max-width: 670px;
 }
+
+#dates {
+  margin-inline: 10px;
+  padding-inline: 5px;
+  padding-bottom: 100px;
+}
+
+#dates #hero-bold {
+  font-weight: 900;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+#dates #venue {
+  letter-spacing: 1.5px;
+  opacity: 0.9;
+}
