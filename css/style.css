@@ -616,4 +616,17 @@ footer img {
     text-align: center;
     align-self: end;
   }
+
+  /* featured speakers */
+  #featured-speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    column-gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  #more-featured-speakers {
+    display: none;
+  }
 }
