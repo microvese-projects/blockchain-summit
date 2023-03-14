@@ -268,6 +268,7 @@ header {
   border: 1px solid lightgray;
   background: #fff;
   max-width: 600px;
+  text-align: center;
 }
 
 #contact-call {
@@ -301,10 +302,15 @@ header {
   margin-bottom: 20px;
 }
 
-#about hr {
+#about .section-heading-underline {
   margin-top: 5px;
   margin-bottom: 10px;
   width: 40px;
+}
+
+#about #divider {
+  width: 100vw;
+  border: 0.5px solid rgb(230, 230, 230);
 }
 
 #about-logo > p {
