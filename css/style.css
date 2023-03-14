@@ -452,7 +452,7 @@ header {
   background-size: cover;
 }
 
-#partners {
+.partners {
   background: #272a31;
   color: #eaeced;
   display: flex;
@@ -460,6 +460,10 @@ header {
   align-items: center;
   width: 100%;
   padding: 20px;
+}
+
+.home-hidden {
+  display: none;
 }
 
 #partner-logos {
@@ -628,5 +632,25 @@ footer img {
 
   #more-featured-speakers {
     display: none;
+  }
+
+  /* partners */
+  .home-hidden {
+    display: flex;
+  }
+
+  #partner-logos {
+    margin-block: 40px 50px;
+  }
+
+  /* footer section */
+  footer {
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+
+  footer img {
+    height: 120px;
+    margin-right: 120px;
   }
 }
