@@ -118,7 +118,6 @@ header {
 #program-list > li > ul {
   display: flex;
   align-items: center;
-  gap: 8%;
 }
 
 .icon {
@@ -127,6 +126,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 8px;
 }
 
 .activity {
@@ -134,6 +134,8 @@ header {
   font-weight: 700;
   font-size: 1.1rem;
   width: 80px;
+  margin-right: 25px;
+  text-align: center;
 }
 
 .activity-description {
