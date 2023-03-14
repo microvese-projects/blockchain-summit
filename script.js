@@ -6,10 +6,10 @@ const speakersObj = [
     image: 'images/speakers/vitalik_buterin.jpg',
   },
   {
-    name: 'Vitalik Buterin',
-    title: 'Blockchain Developer and Co-Founder, Ethereum',
+    name: 'Susana Croft',
+    title: 'Blockchain Developer, Chainlink',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, optio. Quis voluptatum quaerat mollitia quae iste libero voluptates adipisci exercitationem?',
-    image: 'images/speakers/vitalik_buterin.jpg',
+    image: 'images/speakers/lady.jpg',
   },
   {
     name: 'Vitalik Buterin',
