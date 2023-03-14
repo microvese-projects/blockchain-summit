@@ -28,6 +28,7 @@ header {
 
 .navbar {
   display: none;
+  list-style: none;
 }
 
 .hamburger-menu-icon {
@@ -131,8 +132,15 @@ header {
 /* dates section start */
 #dates {
   margin-inline: 10px;
+  text-align: center;
   padding-inline: 5px;
   padding-bottom: 100px;
+  background-image: 
+    url("../images/Blockchain-Dollar-Sign.svg"),
+    url("../images/Blockchain-Chain.svg");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: bottom 10px right 50%, bottom 50px right 10%;
 }
 
 #dates #hero-bold {
@@ -467,4 +475,56 @@ footer {
 footer img {
   height: 80px;
 }
+
 /* END OF ABOUT PAGE */
+
+/* desktop version css */
+@media only screen and (min-width: 768px) {
+  header {
+    height: fit-content;
+    background: #fff;
+    box-shadow: 0 1px 10px lightgray;
+  }
+
+  #home-nav {
+    background-image: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+
+  .navbar li:not(li.logo) {
+    margin-inline: 10px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .navbar a:hover,
+  .navbar a:active {
+    color: #ec5242;
+  }
+
+  .hamburger-menu-icon {
+    display: none;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+
+  .join-button {
+    background: transparent;
+  }
+}
