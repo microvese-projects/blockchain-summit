@@ -18,6 +18,24 @@ header {
   height: 100px;
 }
 
+.socials {
+  background: #272a31;
+  color: #d3d3d3;
+  display: none;
+  justify-content: end;
+  margin-inline: auto;
+  padding: 5px;
+}
+
+.socials ul {
+  width: 80%;
+  margin-inline: auto;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
 #home-nav {
   height: 100%;
   background-image: 
@@ -481,9 +499,13 @@ footer img {
 /* desktop version css */
 @media only screen and (min-width: 768px) {
   header {
-    height: fit-content;
+    height: 100px;
     background: #fff;
     box-shadow: 0 1px 10px lightgray;
+  }
+
+  .socials {
+    display: flex;
   }
 
   #home-nav {
@@ -526,5 +548,18 @@ footer img {
 
   .join-button {
     background: transparent;
+  }
+
+  /* hero section */
+  #intro {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #hero,
+  #hero-description {
+    margin-inline: auto;
   }
 }
