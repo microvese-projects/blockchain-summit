@@ -177,6 +177,7 @@ header {
 
 .speaker-image {
   width: 85%;
+  height: 140px;
   position: absolute;
   bottom: 0;
   right: 0;
