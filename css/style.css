@@ -235,3 +235,121 @@ header {
   font-weight: 900;
 }
 /* end of featured speakers */
+
+/* START OF ABOUT PAGE */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero-about {
+  text-align: center;
+  padding-inline: 10px;
+  margin-bottom: 50px;
+}
+
+#hero-about-description {
+  margin-inline: 10px;
+  padding: 20px 15px;
+  font-size: 0.9rem;
+  border: 1px solid lightgray;
+  background: #fff;
+  max-width: 600px;
+}
+
+#contact-call {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 28px;
+  font-size: 0.8rem;
+  max-width: 88%;
+  margin-bottom: 40px;
+}
+
+#contact-call a {
+  color: #272a31;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.white {
+  background: #fff;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+.white > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#about hr {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+#about-logo > p {
+  width: 80%;
+}
+
+#about p {
+  font-size: 0.9rem;
+}
+
+#about h2 {
+  font-size: 1.2rem;
+}
+
+#past-summits > p {
+  width: 90%;
+  padding-inline: 5px;
+}
+
+.summit {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+  color: #fff;
+  width: 90%;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.summit h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.latest {
+  background-image: 
+    linear-gradient(90deg, rgba(224, 110, 93, 0.8), rgba(224, 110, 93, 0.8)),
+    url("../images/nairobi.jpg");
+  background-size: cover;
+}
+
+.second-latest {
+  background-image: linear-gradient(90deg, rgba(224, 110, 93, 0.8), rgba(224, 110, 93, 0.8)),url("../images/ethiopia.jpg");
+  background-color: #ec5242;
+  background-size: cover;
+}
+
+#partners {
+  background: #272a31;
+  color: #eaeced;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+/* END OF ABOUT PAGE */
