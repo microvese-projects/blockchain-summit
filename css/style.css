@@ -18,6 +18,10 @@ header {
   padding-top: 15px;
 }
 
+.navbar {
+  display: none;
+}
+
 .hamburger-menu-icon {
   color: #272a31;
   font-weight: 700;
