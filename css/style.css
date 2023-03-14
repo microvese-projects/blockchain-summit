@@ -18,7 +18,7 @@ header {
   padding-top: 15px;
 }
 
-#hamburger-menu-icon {
+.hamburger-menu-icon {
   color: #272a31;
   font-weight: 700;
   font-size: 40px;
@@ -29,7 +29,7 @@ header {
   margin-inline: 15px;
 }
 
-#hero p {
+.hero-greeting {
   color: #ec5242;
   font-size: 22px;
 }
