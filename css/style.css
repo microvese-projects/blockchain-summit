@@ -10,6 +10,7 @@
 body {
   background-color: #f7f7f7;
   color: #272a31;
+  position: relative;
 }
 
 /* header */
@@ -23,7 +24,6 @@ header {
     linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url("../images/coins.jpg");
   background-size: cover;
-  /* mix-blend-mode: lighten; */
 }
 
 .navbar {
@@ -38,6 +38,63 @@ header {
   padding-top: 15px;
 }
 
+.join-button {
+  cursor: pointer;
+  padding: 10px 30px;
+  color: #ec5242;
+  border: 4px solid #ec5242;
+  background: #d3d3d3;
+  font-size: 1rem;
+}
+
+#popup-menu {
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  height: 100vh;
+  width: 100%;
+  background-color: #272a31;
+}
+
+#close-hamburger {
+  color: #d3d3d3;
+  font-size: 30px;
+  text-align: end;
+  padding-right: 20px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.popup-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.popup-navbar a {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.popup-navbar a:hover,
+.popup-navbar a:active {
+  color: #ec5242;
+}
+
+#close-hamburger > i:hover,
+#close-hamburger > i:active {
+  color: #ec5242
+}
+
+.hide {
+  display: none;
+}
+
+/* start of hero */
 #hero {
   margin-inline: 15px;
 }
@@ -265,7 +322,7 @@ header {
 }
 
 #hero-about-description {
-  margin-inline: 10px;
+  margin-inline: 20px;
   padding: 20px 15px;
   font-size: 0.9rem;
   border: 1px solid lightgray;
@@ -318,6 +375,10 @@ header {
 
 #about-logo > p {
   width: 80%;
+}
+
+#about-logo > h2 {
+  width: 90%;
 }
 
 #about p:not(p:first-child) {
