@@ -72,6 +72,7 @@ This section provides buttons for navigating around the website. There is a diff
 
 > Click on the [link](https://www.loom.com/share/92dccfd50e4f4f179f54d51ac98e7e8c) to watch an outline video of my project.
 [Outline Video](https://www.loom.com/share/573a3a85166344f7b90c38ed8e24b643)
+<video src="https://www.loom.com/share/573a3a85166344f7b90c38ed8e24b643"></video>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,6 +159,7 @@ If you like this project, you can show your support by giving this project's rep
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for the outstanding collection of information they have provided that enabled me to create the project.
+I would also like to thank <strong>*Cindy Shin*</strong> who is the author of the original design that I emulated while creating the project. 
 
 
 <!-- LICENSE -->
