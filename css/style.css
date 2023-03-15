@@ -20,6 +20,11 @@ header {
   height: 100px;
 }
 
+header,
+footer {
+  width: 100%;
+}
+
 .socials {
   background: #272a31;
   color: #d3d3d3;
@@ -116,6 +121,16 @@ header {
 }
 
 /* start of hero */
+#intro {
+  background-image: url("../images/abstracts/ada-abstract.svg"),
+  url("../images/abstracts/chainlink-abstract.svg"),
+  url("../images/abstracts/chainlink-abstract.svg"),
+  url("../images/abstracts/ada-abstract.svg");
+  background-size: 60px, 40px, 20px;
+  background-repeat: no-repeat;
+  background-position: right, top right 20%, left 10px bottom 10%;
+}
+
 #hero {
   margin-inline: 15px;
 }
@@ -239,7 +254,6 @@ header {
 }
 
 /* program section end */
-
 .section-heading-underline {
   width: 20%;
   border: 2px solid #ec5242;
@@ -342,6 +356,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#about-intro {
+  background-image: url("../images/abstracts/ada-abstract.svg"),
+  url("../images/abstracts/chainlink-abstract.svg"),
+  url("../images/abstracts/chainlink-abstract.svg"),
+  url("../images/abstracts/color-ada-abstract.svg");
+  background-size: 60px, 40px, 20px;
+  background-repeat: no-repeat;
+  background-position: right, top right 20%, left 10px bottom 10%, top 30% left;
 }
 
 #hero-about {
