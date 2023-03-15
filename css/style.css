@@ -45,7 +45,7 @@ footer {
 
 #home-nav {
   height: 100%;
-  background-image: 
+  background-image:
     linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
     url("../images/coins.jpg");
   background-size: cover;
@@ -113,7 +113,7 @@ footer {
 
 #close-hamburger > i:hover,
 #close-hamburger > i:active {
-  color: #ec5242
+  color: #ec5242;
 }
 
 .hide {
@@ -122,10 +122,11 @@ footer {
 
 /* start of hero */
 #intro {
-  background-image: url("../images/abstracts/ada-abstract.svg"),
-  url("../images/abstracts/chainlink-abstract.svg"),
-  url("../images/abstracts/chainlink-abstract.svg"),
-  url("../images/abstracts/ada-abstract.svg");
+  background-image:
+    url("../images/abstracts/ada-abstract.svg"),
+    url("../images/abstracts/chainlink-abstract.svg"),
+    url("../images/abstracts/chainlink-abstract.svg"),
+    url("../images/abstracts/ada-abstract.svg");
   background-size: 60px, 40px, 20px;
   background-repeat: no-repeat;
   background-position: right, top right 20%, left 10px bottom 10%;
@@ -144,7 +145,6 @@ footer {
   background-image:
     linear-gradient(45deg, rgba(255, 25, 31, 0.6), rgba(187, 10, 15, 0.7), rgba(236, 82, 66, 0.8)),
     url('../images/coins.jpg');
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
@@ -171,7 +171,7 @@ footer {
   text-align: center;
   padding-inline: 5px;
   padding-bottom: 100px;
-  background-image: 
+  background-image:
     url("../images/Blockchain-Dollar-Sign.svg"),
     url("../images/Blockchain-Chain.svg");
   background-repeat: no-repeat;
@@ -273,13 +273,13 @@ footer {
   margin: 20px;
 }
 
-.speaker-card:first-child {
-  margin-top: 30px;
-}
-
 .speaker-card {
   display: flex;
   margin-bottom: 30px;
+}
+
+.speaker-card:first-child {
+  margin-top: 30px;
 }
 
 .images {
@@ -345,10 +345,11 @@ footer {
   border-radius: 5px;
 }
 
-#more-featured-speakers i {
+#more-featured-speakers-dropdown {
   color: #ec5242;
   font-weight: 900;
 }
+
 /* end of featured speakers */
 
 /* START OF ABOUT PAGE */
@@ -359,10 +360,11 @@ footer {
 }
 
 #about-intro {
-  background-image: url("../images/abstracts/ada-abstract.svg"),
-  url("../images/abstracts/chainlink-abstract.svg"),
-  url("../images/abstracts/chainlink-abstract.svg"),
-  url("../images/abstracts/color-ada-abstract.svg");
+  background-image:
+    url("../images/abstracts/ada-abstract.svg"),
+    url("../images/abstracts/chainlink-abstract.svg"),
+    url("../images/abstracts/chainlink-abstract.svg"),
+    url("../images/abstracts/color-ada-abstract.svg");
   background-size: 60px, 40px, 20px;
   background-repeat: no-repeat;
   background-position: right, top right 20%, left 10px bottom 10%, top 30% left;
@@ -443,7 +445,7 @@ footer {
   font-size: 1.2rem;
 }
 
-#past-summits > p {
+.past-summits-p {
   width: 90%;
   padding-inline: 5px;
 }
@@ -474,14 +476,16 @@ footer {
 }
 
 .latest {
-  background-image: 
+  background-image:
     linear-gradient(90deg, rgba(224, 110, 93, 0.8), rgba(224, 110, 93, 0.8)),
     url("../images/nairobi.jpg");
   background-size: cover;
 }
 
 .second-latest {
-  background-image: linear-gradient(90deg, rgba(224, 110, 93, 0.8), rgba(224, 110, 93, 0.8)),url("../images/ethiopia.jpg");
+  background-image:
+    linear-gradient(90deg, rgba(224, 110, 93, 0.8), rgba(224, 110, 93, 0.8)),
+    url("../images/ethiopia.jpg");
   background-color: #ec5242;
   background-size: cover;
 }
@@ -530,7 +534,7 @@ footer {
   font-size: 0.7rem;
 }
 
-footer img {
+.footer-logo {
   height: 80px;
 }
 
@@ -582,7 +586,7 @@ footer img {
     margin-right: auto;
   }
 
-  .logo img {
+  .navbar-logo {
     height: 70px;
   }
 
@@ -603,13 +607,13 @@ footer img {
   .hero-greeting {
     font-size: 2rem;
   }
-  
+
   #hero-heading {
     font-size: 5rem;
     font-weight: 900;
     max-width: 950px;
   }
-  
+
   #hero-description {
     line-height: 30px;
     font-size: 16px;
@@ -684,6 +688,8 @@ footer img {
   footer {
     font-size: 1.4rem;
     font-style: italic;
+    background: #272a31;
+    color: #d3d3d3;
   }
 
   footer img {
@@ -727,7 +733,7 @@ footer img {
 
   #summit-tiles {
     flex-direction: row;
-    max-width: 80%/1000px;
+    max-width: 1000px;
     margin-top: 30px;
     margin-inline: auto;
     gap: 40px;
@@ -741,9 +747,10 @@ footer img {
   .partners {
     display: none;
   }
+}
 
-  footer {
-    background: #272a31;
-    color: #d3d3d3;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #hero-heading {
+    font-size: 3rem;
   }
 }
