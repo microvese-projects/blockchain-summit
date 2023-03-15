@@ -595,6 +595,7 @@ footer img {
     display: flex;
     justify-content: space-between;
     gap: 5px;
+    padding-inline: 40px;
   }
 
   #program-list > li {
@@ -623,8 +624,9 @@ footer img {
 
   /* featured speakers */
   #featured-speakers {
+    margin-inline: 40px;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, minmax(350px, 500px));
     column-gap: 40px;
     margin-top: 40px;
     margin-bottom: 70px;
