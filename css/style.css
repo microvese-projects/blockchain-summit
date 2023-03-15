@@ -11,6 +11,8 @@ body {
   background-color: #f7f7f7;
   color: #272a31;
   position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* header */
@@ -368,6 +370,7 @@ header {
   font-size: 0.8rem;
   max-width: 88%;
   margin-bottom: 40px;
+  margin-inline: auto;
 }
 
 #contact-call a {
@@ -419,6 +422,13 @@ header {
 #past-summits > p {
   width: 90%;
   padding-inline: 5px;
+}
+
+#summit-tiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .summit {
@@ -475,6 +485,7 @@ header {
 #partner-logos img {
   height: 70px;
   min-width: 100px;
+  margin: 5px;
 }
 
 #logo-img {
@@ -654,5 +665,61 @@ footer img {
   footer img {
     height: 120px;
     margin-right: 120px;
+  }
+
+  /* START OF ABOUT PAGE */
+  #about-intro {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about h2 {
+    font-size: 2rem;
+  }
+
+  #about p:not(p:first-child) {
+    font-size: 1.2rem;
+  }
+
+  #about-logo,
+  #past-summits {
+    padding: 50px;
+  }
+
+  #hero-about-description {
+    font-size: 1.2rem;
+    width: 70%;
+    max-width: 1000px;
+    line-height: 30px;
+  }
+
+  #logo-img {
+    width: fit-content;
+    padding-inline: 100px;
+  }
+
+  #summit-tiles {
+    flex-direction: row;
+    max-width: 80%/1000px;
+    margin-top: 30px;
+    margin-inline: auto;
+    gap: 40px;
+  }
+
+  .summit {
+    max-width: 400px;
+    min-height: 200px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  footer {
+    background: #272a31;
+    color: #d3d3d3;
   }
 }
