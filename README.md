@@ -70,7 +70,7 @@ This section provides buttons for navigating around the website. There is a diff
 <!-- Video Walkthrough -->
 ## Video Walkthrough <a name="outline-video"></a>
 
-> Click on the [link](https://www.loom.com/share/92dccfd50e4f4f179f54d51ac98e7e8c) to watch an outline video of my project.
+> Click on the [link](https://www.loom.com/share/8cb3549317c64b95addd3a2d5e9994f5) to watch an outline video of my project.
 [Outline Video](https://www.loom.com/share/8cb3549317c64b95addd3a2d5e9994f5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
