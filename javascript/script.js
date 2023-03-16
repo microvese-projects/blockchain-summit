@@ -25,6 +25,8 @@ const speakersObj = [
   },
 ];
 const featuredSpeakersContainer = document.querySelector('#featured-speakers');
+const moreSpeakersButton = document.querySelector('#more-featured-speakers');
+let speakerCards;
 
 function displaySpeaker({
   name, title, description, image,
@@ -49,6 +51,25 @@ function displaySpeaker({
   
   `;
   featuredSpeakersContainer.innerHTML += speakerCard;
+  speakerCards = document.querySelectorAll('.speaker-card');
+}
+
+function showMoreSpeakers() {
+  const moreLessText = document.querySelector('#moreLess');
+  const arrow = moreSpeakersButton.querySelector('i');
+  const cardArray = Array.from(speakerCards);
+  cardArray.forEach((card) => {
+    card.classList.toggle('speaker-card-flex');
+  });
+
+  if (moreLessText.textContent === 'MORE') {
+    moreLessText.textContent = 'LESS';
+    arrow.style.rotate = '180deg';
+  } else {
+    moreLessText.textContent = 'MORE';
+    arrow.style.rotate = '0deg';
+  }
 }
 
 speakersObj.forEach(displaySpeaker);
+moreSpeakersButton.addEventListener('click', showMoreSpeakers);

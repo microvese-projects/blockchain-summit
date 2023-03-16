@@ -304,8 +304,17 @@ footer {
 }
 
 .speaker-card {
-  display: flex;
+  display: none;
   margin-bottom: 30px;
+}
+
+.speaker-card:first-child,
+.speaker-card:nth-child(2) {
+  display: flex;
+}
+
+.speaker-card-flex {
+  display: flex;
 }
 
 .speaker-card:first-child {
@@ -721,6 +730,10 @@ footer {
     column-gap: 40px;
     margin-top: 40px;
     margin-bottom: 70px;
+  }
+
+  .speaker-card {
+    display: flex;
   }
 
   #more-featured-speakers {
