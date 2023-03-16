@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Javascript -->
+  <script src="./javascript/script.js" defer></script>
+  <script src="./javascript/navbar.js" defer></script>
+  <title>Blockchain Summit</title>
+</head>
+<body>
+  <header>
+    <div class="socials">
+      <ul>
+        <li>
+          <i class="fa-brands fa-facebook-f"></i>
+        </li>
+        <li>
+          <i class="fa-brands fa-twitter"></i>
+        </li>
+        <li>
+          English
+        </li>
+        <li>
+          My Page
+        </li>
+        <li>
+          Logout
+        </li>
+      </ul>
+    </div>
+    <nav id="home-nav">
+      <ul class="navbar">
+        <li class="logo">
+          <a href="index.html">
+            <img src="./images/blockchain-logo.png" alt="Logo" class="navbar-logo">
+          </a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="#">Program</a>
+        </li>
+        <li>
+          <a href="#">Join</a>
+        </li>
+        <li>
+          <a href="#">Sponsor</a>
+        </li>
+        <li>
+          <a href="#">News</a>
+        </li>
+        <li>
+          <a href="#">
+            <button class="join-button" type="button">Block Summit</button>
+          </a>
+        </li>
+      </ul>
+      <div class="hamburger-menu-icon">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <div id="hero">
+        <p class="hero-greeting">
+          "Hello! Blockchain Community"
+        </p>
+        <h1 id="hero-heading">
+          BLOCKCHAIN ON-RAMP GLOBAL SUMMIT 2023
+        </h1>
+      </div>
+      <div id="hero-description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam necessitatibus expedita at ullam dolorum in, iste deleniti nam repellendus, aperiam eius eveniet fuga non, voluptatem officia veniam incidunt modi nostrum. Explicabo ut vero aliquid magnam praesentium laborum cumque! Laboriosam, suscipit error praesentium sequi dicta fuga doloribus modi eveniet debitis dolor.
+      </div>
+      <div id="dates">
+        <strong id="hero-bold">2023.12.12(TUE) ~ 14(THU)</strong>
+        <p id="venue">@ Nakuru Box, Nakuru, Kenya</p>
+      </div>
+    </section>
+    <div id="program">
+      <h2 class="section-title">Main Program</h2>
+      <hr class="section-heading-underline">
+      <ul id="program-list">
+        <li>
+          <ul>
+            <li class="icon">
+              <i class="fa-solid fa-desktop"></i>
+            </li>
+            <li class="activity">
+              Lecture
+            </li>
+            <li class="activity-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab molestias assumenda officia qui dolorem?
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="icon">
+              <i class="fa-solid fa-question"></i>
+            </li>
+            <li class="activity">
+              What's Blockchain?
+            </li>
+            <li class="activity-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam corporis consequuntur libero odit accusantium amet impedit quo? Modi?
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="icon">
+              <i class="fa-solid fa-comments"></i>
+            </li>
+            <li class="activity">
+              Applications
+            </li>
+            <li class="activity-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora doloribus ratione, magnam voluptates rem eius!
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="icon">
+              <i class="fa-solid fa-code"></i>
+            </li>
+            <li class="activity">
+              Hackathon
+            </li>
+            <li class="activity-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa vitae deserunt, error dicta voluptas repellat dignissimos.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <ul>
+            <li class="icon">
+              <i class="fa-brands fa-connectdevelop"></i>
+            </li>
+            <li class="activity">
+              Network
+            </li>
+            <li class="activity-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia pariatur sed iusto sint praesentium aut quibusdam, suscipit cum asperiores magni.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button id="join-summit">
+        Join Blockchain Summit 2023
+      </button>
+      <div id="see-program">
+        <a href="#" id="see-program-link">
+          SEE THE WHOLE PROGRAM
+        </a>
+      </div>
+    </div>
+    <div id="speakers">
+      <h2 class="section-title">Featured Speakers</h2>
+      <hr class="section-heading-underline">
+      <ul id="featured-speakers">
+        <!-- added dynamically in javascript -->
+      </ul>
+      <button id="more-featured-speakers">
+        <span id="moreLess">MORE</span>
+        <i class="fa-solid fa-angle-down" id="more-featured-speakers-dropdown"></i>
+      </button>
+    </div>
+    <div class="partners home-hidden">
+      <h2>Partner</h2>
+      <hr class="section-heading-underline">
+      <!-- partner logos go here -->
+      <div id="partner-logos">
+        <img src="./images/partners/chainlink-link-logo.svg" alt="Chainlink">
+        <img src="./images/partners/cardano-ada-logo.svg" alt="Cardano">
+        <img src="./images/partners/solana-sol-logo.svg" alt="Solana">
+        <img src="./images/partners/Ethereum-Landscape-Black-Logo.wine.svg" alt="Ethereum">
+        <img src="./images/partners/google.svg" alt="Google">
+      </div>
+    </div>
+  </main>
+  <footer class="home-hidden" id="home-footer">
+    <img src="./images/blockchain-logo.png" alt="Logo" class="footer-logo">
+    <div class="footer-description">
+      <p>2023 Blockchain On-ramp Summit.</p>
+      <p>Some rights reserved.</p>
+    </div>
+  </footer>
+  <div id="popup-menu" class="hide">
+    <!-- navbar items go here -->
+    <div id="close-hamburger">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <ul class="popup-navbar">
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a href="#">Program</a>
+      </li>
+      <li>
+        <a href="#">Join</a>
+      </li>
+      <li>
+        <a href="#">Sponsor</a>
+      </li>
+      <li>
+        <a href="#">News</a>
+      </li>
+      <li>
+        <a href="#">
+          <button class="join-button" type="button">Block Summit</button>
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
