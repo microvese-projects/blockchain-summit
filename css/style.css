@@ -389,6 +389,11 @@ footer {
   font-weight: 900;
 }
 
+#more-featured-speakers:hover,
+#more-featured-speakers:focus {
+  border-color: #ec5242;
+}
+
 /* end of featured speakers */
 
 /* START OF ABOUT PAGE */
