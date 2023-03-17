@@ -7,7 +7,6 @@ main {
   align-items: center;
   padding-block: 50px;
   width: 90%;
-  max-width: 1400px;
   margin: auto;
 }
 
@@ -151,6 +150,15 @@ ul {
   text-align: start;
 }
 
+#join-summit {
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid rgba(139, 139, 139, 0.2);
+}
 
 @media only screen and (min-width: 768px) {
   main {
