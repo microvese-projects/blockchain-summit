@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -35,7 +36,7 @@ ul {
   color: #272a31;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.2s font-weight 0.5s;
+  transition: all 0.3s ease-in-out;
 }
 
 .program-day:hover {
@@ -76,14 +77,14 @@ ul {
   margin-bottom: 10px;
 }
 
-#socials > li {
+.socials-link {
   border-left: 1px solid rgba(139, 139, 139, 0.2);
   padding-inline: 5px;
   cursor: pointer;
   transition: all 0.1s;
 }
 
-#socials > li:hover {
+.socials-link:hover {
   color: #ec5242;
   border-color: #ec5242;
   font-weight: 600;
@@ -178,7 +179,7 @@ footer {
   }
 }
 
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width: 1000px) {
   .information > ul {
     flex-direction: row;
   }
