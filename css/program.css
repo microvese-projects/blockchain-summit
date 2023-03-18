@@ -155,6 +155,12 @@ ul {
   display: block;
   margin-top: 30px;
   cursor: pointer;
+  transition: background 1s;
+}
+
+#join-summit:hover {
+  background: rgba(236, 82, 66, 0.5);
+  color: #272a31;
 }
 
 footer {
